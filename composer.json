@@ -1,0 +1,35 @@
+{
+    "name": "bloodbowl/odm-core",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Barney Hanlon",
+            "email": "barney@shrikeh.net"
+        }
+    ],
+    "description": "Simple ODM for Blood Bowl",
+    "require" : {
+        "php": ">=5.4.1",
+        "doctrine/common": "2.4.*@dev",
+        "shrikeh/doctrine-tools": "dev-master"
+    },
+    "require-dev" : {
+        "doctrine/mongodb-odm": "1.0.0-BETA8",
+        "pimple/pimple": "1.*",
+        "phpunit/phpunit": ">=3.7.1",
+        "phploc/phploc": ">=1.7.4",
+        "pdepend/pdepend": "*",
+        "shrink/phpcpd": "dev-master",
+        "zerkalica/php-code-browser": "dev-master",
+        "phpmd/phpmd" : ">=1.4.0",
+        "squizlabs/php_codesniffer": "1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "BloodBowl\\Tests\\ODM\\Core": "tests",
+            "BloodBowl\\ODM\\Core": ""
+        }
+    },
+    "target-dir": "BloodBowl/ODM/Core",
+    "minimum-stability": "dev"
+}
