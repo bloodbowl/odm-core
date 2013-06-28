@@ -12,8 +12,10 @@
         "php": ">=5.4.1",
         "doctrine/common": "2.4.*@dev",
         "shrikeh/doctrine-tools": "dev-master"
+
     },
     "require-dev" : {
+        "symfony/yaml": "2.4.*@dev",
         "doctrine/mongodb-odm": "1.0.0-BETA8",
         "pimple/pimple": "1.*",
         "phpunit/phpunit": ">=3.7.1",

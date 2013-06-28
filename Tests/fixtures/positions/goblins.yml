@@ -1,0 +1,11 @@
+positions:
+  fanatic:
+    name: Goblin Fanatic
+    race: goblin
+    stats:
+      ma: -3
+      st: 5
+    skills:
+      - ball_and_chain
+      - no_hands
+      - secret_weapon

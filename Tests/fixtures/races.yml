@@ -1,0 +1,76 @@
+races:
+  -
+    name: Human
+    id: 1
+    stats:
+      ma: 6
+      st: 3
+      ag: 3
+      av: 7
+  -
+    name: Dwarf
+    id: 2
+    stats:
+      ma: 4
+      st: 3
+      ag: 2
+      av: 8
+    skills:
+      thick_skull
+  -
+    name: Skaven
+    id: 3
+    stats:
+      ma: 7
+      st: 3
+      ag: 3
+      av: 7
+  -
+    name: Orc
+    id: 4
+    stats:
+      ma: 5
+      st: 3
+      ag: 3
+      av: 9
+  -
+    name: Skink
+    id: 5
+    stats:
+      ma: 8
+      st: 2
+      ag: 3
+      av: 7
+    skills:
+      -  stunty
+  -
+    name: Goblin
+    id: 6
+    stats:
+      ma: 6
+      st: 2
+      ag: 3
+      av: 7
+    skills:
+      -  stunty
+  -
+    name: Wood Elf
+    id: 6
+    stats:
+      ma: 7
+      st: 3
+      ag: 4
+      av: 7
+    skills:
+      -  stunty
+  -
+    id: 24
+    name: Snotlings
+    stats:
+      ma: 5
+      st: 1
+      ag: 3
+      av: 5
+    skills:
+      -  stunty
+      -  titchy

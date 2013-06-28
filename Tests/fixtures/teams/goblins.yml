@@ -1,0 +1,62 @@
+teams:
+  goblin:
+    id: 6
+    name: Goblin
+    rerolls:
+      cost: 60000
+      starting: 0
+      max: 8
+    positions:
+      fantatic:
+        min: 0
+        max: 1
+        cost: 70000
+      looney:
+        min: 0
+        max: 1
+        cost: 40000
+      pogoer:
+        min: 0
+        max: 1
+        cost: 70000
+      bombadier:
+        min: 0
+        max: 1
+        cost: 40000
+      troll:
+        min: 0
+        max: 2
+        cost: 110000
+      goblin:
+        min: 0
+        max: 16
+        cost: 40000
+  human:
+    id: 1
+    name: Human
+    rerolls:
+      cost: 50000
+      starting: 0
+      max: 8
+    positions:
+      lineman:
+        min: 0
+        max: 16
+        cost: 50000
+      blitzer:
+        min: 0
+        max: 4
+        cost: 90000
+      thrower:
+        min: 0
+        max: 2
+        cost: 70000
+      catcher:
+        min: 0
+        max: 4
+        cost: 70000
+      ogre:
+        min: 0
+        max: 1
+        cost: 140000
+
