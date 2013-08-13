@@ -1,5 +1,5 @@
 <?php
-namespace BloodBowl\ODM\Core;
+namespace BloodBowl\ODM\Core\Team;
 
 use \BloodBowl\ODM\Core\MapperAbstract;
 use \BloodBowl\ODM\Core\Race;

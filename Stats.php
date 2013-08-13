@@ -5,6 +5,7 @@ use \BloodBowl\ODM\Core\MapperAbstract;
 
 class Stats extends MapperAbstract
 {
+
     /**
      * The strength (or modifier) of the player.
      *
